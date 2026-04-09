@@ -1,0 +1,47 @@
+# Entorno virtual
+venv_farm1/
+venv/
+.env
+
+# Archivos de dependencias locales
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de configuración de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Datos locales (no subir CSV originales)
+data/
+*.csv
+*.xlsx
+*.xls
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.bak
+
+# Modelos entrenados (opcional, si son grandes)
+*.joblib
+*.pkl
+*.h5
+*.pb
+
+# Notebooks temporales (si usas Jupyter)
+.ipynb_checkpoints/
+*.ipynb
+
+# Secretos y credenciales
+secrets.toml
+config.local.py
